@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* body{
+    background-color: rgba(255, 255, 255, 1);
+}
+main{
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+form {
+    background-color: rgba(255,255,255,1);
+    height: 60vh;
+    width: 30vw;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    gap: 15px;
+    border: 2px double black;
+    
+}
+header{
+       border-bottom: 3px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+legend{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.select{
+    display: inline;
+}
+input{
+    background-color: white;
+    margin: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+}
+input:focus-within{
+    margin: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+
+}
+ */
+.body{
+background-color: black;
+}
+.title{
+    color:#FCFF67;
+    padding: 7vh 7vw;
+    font-size:30px;
+}
+.form{
+    height: max-content;
+    width: 40vw;
+    font-size: 5vh;
+    color:#6CE9FF;
+    border: #f5d1f0 double 1px;
+    padding: 5vw;
+    padding-top: 0;
+    margin-left:5vw ;
+    
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+input[type="text"]{
+height: 30px;
+font-size: 3vh;
+color: #91ff00;
+    background-color:#000000 ;
+    border: 0.1% solid white;
+}
+input::placeholder{
+    color: #ff7003;
+    background-color:#000000 ;
+    padding: 10px  5px;
+    
+    
+}
+select{
+    color:#91FF00 ;
+    background-color:#000000 ;
+    padding: 2px;
+}
+legend{
+    color: #FFD5AB;
+    padding:2vh ;
+    padding-bottom: 5vh;
+}
+button{
+    background-color: #006900;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 60px;
+    left:400px
+}
+@media screen and (max-width:420px) {
+    header{
+        font-size: 15px;
+    }
+    .form{
+        width: 90vw;
+        font-size: 16px;
+        padding: 0;
+    }
+    legend{
+        font-size: 18px;
+    }
+    input[type="text"]{
+        height:inherit ;
+        font-size: 10px;
+    }
+}
